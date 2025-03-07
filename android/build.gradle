@@ -30,6 +30,9 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+
+    namespace "net.touchcapture.qr.flutterqr"
+    
     defaultConfig {
         // minSdkVersion is determined by Native View.
         minSdkVersion 20
